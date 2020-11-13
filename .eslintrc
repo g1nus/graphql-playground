@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "env": {
+    "es2020": true,
+    "node": true,
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "prettier",
+    "import"
+  ],
+  "extends": [
+    "airbnb-typescript/base",
+    "prettier",
+    "prettier/@typescript-eslint",
+  ],
+  "parserOptions": {
+    "project": [
+      "tsconfig.json",
+      "scripts/tsconfig.json",
+    ],
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "no-console": "off"
+  }
+}
