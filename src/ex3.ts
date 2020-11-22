@@ -23,7 +23,6 @@ const schema = gql`
 
   type Recipe {
     id: ID!
-    author: Author!
     title: String!
     text: String!
     ingredients: [Ingredient!]!
