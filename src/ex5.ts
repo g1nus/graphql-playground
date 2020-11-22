@@ -1,5 +1,5 @@
 // #####################
-// With the knowledge that you'te gathered
+// With the knowledge that you've gathered
 // try to make a new query with the following name and type -> filterRecipes(ingredientName: String!): [Recipe!]
 // this query will get the name of an ingredient and its resolver will return all recipes containing the given ingredient
 // #####################
